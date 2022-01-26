@@ -18,9 +18,8 @@ export interface IHelloWorldWebPartProps {
   description: string;
 }
 
-export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorldWebPartProps> {
+export default class ABPComponent extends BaseClientSideWebPart<IHelloWorldWebPartProps> {
   public render(): void {
-    const a = "";
     const element: React.ReactElement<IHelloWorldProps> = React.createElement(
       HelloWorld,
       {
