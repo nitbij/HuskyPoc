@@ -9,6 +9,7 @@
     },
     "extends": [
         "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
         "plugin:@typescript-eslint/recommended"
     ],
     "parserOptions": {
@@ -28,11 +29,10 @@
             "warn",
             4
         ],
-      
         "react/react-in-jsx-scope": "off",
         "react/destructuring-assignment": "off",
         "no-nested-ternary": "warn",
         "react/prop-types": "off",
-        "react/jsx-indent" : "off"
+        "react/jsx-indent": "off"
     }
 }
